@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+    align-items: center;
+}
+.product_list{
+    width: 80%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.product{
+    margin-bottom: 1rem;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.sortFilter{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 12rem;
+    height: min-content;
+    margin-left: 2rem;
+}
+.emptyCart{
+    text-align: center;
+}
