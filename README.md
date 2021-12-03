@@ -1,2 +1,2 @@
 # MVCstore
-Simple store on PHP, using webserver Apache and design pattern MVC
+Simple store on PHP, using webserver Apache, SQLite and design pattern MVC
